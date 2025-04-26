@@ -1,0 +1,25 @@
+Welcome to our Maze game!
+Here are the instructions as to how to play our game:
+
+(1) How to reset this maze or make a new one:
+- "r" => resets the colors of this Maze back to their original colors
+- "n" => randomly generates a new maze with the same dimensions and bias as this maze
+- "v" => randomly generates a new maze with the same dimensions as this maze
+         but also with a bias for a vertically generated maze
+- "h" => randomly genrates a new maze with the same dimensions as this maze
+         but also with a bias for a horizontally generated maze 
+
+(2) Movement => wasd controls (must use lowercase letters)
+- Note: a player CANNOT move once they have begun using one of the maze
+        solvers nor can they move once the maze has been solved (either by the 
+        player themselves or once the depth or breadth first searches have
+        finished). So, to move again, you must generate a new maze as described
+        above.
+
+(3) Maze Solvers
+- "D" => solves the maze following a depth-first search algorithm. The 
+         paths that are searched are all highlighted in cyan. The solution
+         path is highlighted in dark blue from end->start once it has been found.
+- "B" => solves the maze following a breadth-first search algorithm. The
+         paths that are searched are all highlighted in cyan. The solution
+         path is highlighted in dark blue from end->start once it has been found.
